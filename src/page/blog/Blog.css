@@ -16,11 +16,15 @@
 .buttons{
     width: 12rem;
     height: auto;
-    background-color: chartreuse;
+    background-color: #00ff51;
     border-radius: 23px;
     margin: 1rem;
     text-align: center;
     cursor: pointer;
+}
+.buttons-active{
+    opacity: .4;
+    background-color: #00ff51;
 }
 .p1{
     padding: .5rem;
@@ -28,10 +32,4 @@
 
 
 /*--------------------------------------------------------------------------------------*/
-    
-.register{
-    display: none;
-}
-.register-active{
-    display: block;
-}
+ 
